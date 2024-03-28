@@ -1,0 +1,24 @@
+
+/* General properties */
+
+body{
+    background:  linear-gradient(to bottom, #B1AFFF, #B8E8FC, #FDFDBD) no-repeat;
+    height: 100vh;
+}
+
+.container .box{
+    background:  linear-gradient(to bottom, #B1AFFF, #B8E8FC, #FDFDBD) no-repeat;
+    box-shadow: -5px 2px 54px -9px #B1AFFF;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px #202020 ;
+}
+.navbar .navbar-brand{
+    color: #7775b6;
+    font-weight: bold;
+}
+.container .box h1{
+    color: #7775b6;
+    text-shadow: 6px 6px #B1AFFF;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="CSS/signup.css">
+    <!-- fontawsome css -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+</head>
+<body>
+    <div class="container h-100 d-flex justify-content-center align-items-center ">
+        <div class="box w-75 text-center p-5">
+            <h1 class="mb-4">Smart Login System</h1>
+            <input oninput="validationName()" id="userNameInput" class="form-control mb-3" type="text" placeholder="Enter your name">
+            <div class="alert alert-danger d-none" id="messageNameInput">Your Name isn't valid</div>
+
+            <input oninput="validationEmail()" id="userEmailInput"class="form-control mb-3" type="email" placeholder="Enter your email">
+            <div class="alert alert-danger d-none" id="messageEmailInput">Your Email isn't valid</div>
+
+            <input oninput="validationPass()" id="userPassInput" class="form-control mb-5" type="password" placeholder="Enter your password">
+            <div class="alert alert-danger d-none" id="messagePassInput">Your Password isn't valid</div>
+
+            <div id="warningMessage"></div>
+            <button onclick="createAccount()" class="btn btn-outline-info mb-5 w-100 fs-5 fw-bold ">Sign Up</button>
+            <p>You have an account? <a href="/">Sign In</a></p>
+        </div>
+    </div>
+    <script src="JS/signup.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

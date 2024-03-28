@@ -1,0 +1,44 @@
+
+/* General properties */
+
+body{
+    background:  linear-gradient(to bottom, #B1AFFF, #B8E8FC, #FDFDBD) no-repeat;
+    height: 100vh;
+}
+
+.container .box{
+    background:  linear-gradient(to bottom, #B1AFFF, #B8E8FC, #FDFDBD) no-repeat;
+    box-shadow: -5px 2px 54px -9px #B1AFFF;
+}
+
+.container .box h1{
+    color: #B8E8FC;
+    text-shadow: 6px 6px #B1AFFF;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn-outline-info{
+    color: #7977c2;
+    border-color: #7977c2;
+}
+.btn-outline-info:hover{
+    color: #FDFDBD;
+    background-color: #7977c2;
+    border-color: #7977c2;
+}
+.container .box p, a{
+    font-weight: 700;
+}
+.container .box p{
+    color: #6ba2b8;
+    font-size: 17px;
+}
+.container .box p a{
+    color: #7977c2;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container .box p a:hover{
+    text-decoration:underline;
+}
